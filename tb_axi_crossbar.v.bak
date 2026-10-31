@@ -1,0 +1,8 @@
+module tb_axi_crossbar (
+	input wire clk,
+	input wire reset_n,
+	
+	//Write Address Channel
+	output reg 	m0_AWAddr;
+);
+endmodule

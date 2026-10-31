@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\quartus\AXI4\simulation\modelsim
+vaxi_arbiter
+IRKT:l@OP5ODm]lh3E_mBK0
+V`=5zabXGD?AeYP98^Tm6d2
+Z1 dC:\altera\13.0sp1\quartus\AXI4\simulation\modelsim
+w1791417498
+8C:/altera/13.0sp1/quartus/AXI4/axi_arbiter.v
+FC:/altera/13.0sp1/quartus/AXI4/axi_arbiter.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/quartus/AXI4 -O0
+!i10b 1
+!s100 86DFKHCbhLE_6[MDZIa<O0
+!s85 0
+!s108 1791853007.620000
+!s107 C:/altera/13.0sp1/quartus/AXI4/axi_arbiter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/quartus/AXI4|C:/altera/13.0sp1/quartus/AXI4/axi_arbiter.v|
+!s101 -O0
+vaxi_crossbar
+IKzZ8ND?@?[f6h>Jm1N<Ef3
+V5M4J>_hX1G:`K:zJWDZ6D3
+R1
+w1791847910
+8C:/altera/13.0sp1/quartus/AXI4/axi_crossbar.v
+FC:/altera/13.0sp1/quartus/AXI4/axi_crossbar.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 S4bZf^fidUEmGKYU1jfdg0
+!s85 0
+!s108 1791853007.899000
+!s107 C:/altera/13.0sp1/quartus/AXI4/axi_crossbar.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/quartus/AXI4|C:/altera/13.0sp1/quartus/AXI4/axi_crossbar.v|
+!s101 -O0
+vaxi_decoder
+IN@XUJQ6NX4=F>;c8iAV]z3
+V@7<iS<UYW6o:A;WMFDS_J3
+R1
+w1791417370
+8C:/altera/13.0sp1/quartus/AXI4/axi_decoder.v
+FC:/altera/13.0sp1/quartus/AXI4/axi_decoder.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]T<<QW^8H6mSXj1HjcS4f3
+!s85 0
+!s108 1791853007.785000
+!s107 C:/altera/13.0sp1/quartus/AXI4/axi_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/quartus/AXI4|C:/altera/13.0sp1/quartus/AXI4/axi_decoder.v|
+!s101 -O0
+vtb_axi_crossbar
+!i10b 1
+!s100 bLg`F]mPG^X^l<SZ>F2>g2
+I0kW9?]omJ]GHddW;7O4Bg1
+VbCS>[S<fnNW;8=T8;nDaC3
+R1
+w1791852806
+8C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v
+FC:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1791853008.015000
+!s107 C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/quartus/AXI4|C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v|
+!s101 -O0
+R3
+R4

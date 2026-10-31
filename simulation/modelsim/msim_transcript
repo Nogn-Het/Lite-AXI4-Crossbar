@@ -1,0 +1,158 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do axi_crossbar_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/quartus/AXI4 {C:/altera/13.0sp1/quartus/AXI4/axi_arbiter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module axi_arbiter
+# 
+# Top level modules:
+# 	axi_arbiter
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/quartus/AXI4 {C:/altera/13.0sp1/quartus/AXI4/axi_decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module axi_decoder
+# 
+# Top level modules:
+# 	axi_decoder
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/quartus/AXI4 {C:/altera/13.0sp1/quartus/AXI4/axi_crossbar.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module axi_crossbar
+# 
+# Top level modules:
+# 	axi_crossbar
+# 
+# vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/quartus/AXI4 {C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_axi_crossbar
+# 
+# Top level modules:
+# 	tb_axi_crossbar
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  tb_axi_crossbar
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_axi_crossbar 
+# Loading work.tb_axi_crossbar
+# Loading work.axi_crossbar
+# Loading work.axi_arbiter
+# Loading work.axi_decoder
+# ** Warning: (vsim-3017) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Too few port connections. Expected 70, found 20.
+# 
+#         Region: /tb_axi_crossbar/uut
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_ARAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_ARValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_ARReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_RData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_RResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_RValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm0_RReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_AWAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_AWReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_WData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_WStrb'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_WValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_WReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_BResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_BValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_BReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_ARAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_ARValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_ARReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_RData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_RResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_RValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 'm1_RReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_WData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_WStrb'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_WValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_ARAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_ARValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_ARReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_RData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_RResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_RValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's0_RReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_AWAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_AWValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_AWReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_WData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_WStrb'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_WValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_WReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_BResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_BValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_BReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_ARAddr'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_ARValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_ARReady'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_RData'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_RResp'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_RValid'.
+# 
+# ** Warning: (vsim-3722) C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v(50): [TFMPC] - Missing connection for port 's1_RReady'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# SUCCESS: DECERR (2'b11) correctly generated by crossbar!
+# Break in Module tb_axi_crossbar at C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v line 122
+# Simulation Breakpoint: Break in Module tb_axi_crossbar at C:/altera/13.0sp1/quartus/AXI4/tb_axi_crossbar.v line 122
+# MACRO ./axi_crossbar_run_msim_rtl_verilog.do PAUSED at line 19

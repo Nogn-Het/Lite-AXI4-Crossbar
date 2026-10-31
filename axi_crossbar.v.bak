@@ -1,0 +1,34 @@
+module axi_crossbar (
+	//Standards
+	input wire clk,
+	input wire reset_n,
+	
+	//Master 0 Interface
+	//Write Address Channel (AW)
+	input wire [31:0]  m0_AWAddr,
+	input wire 			 m0_AWValid,
+	output wire 		 m0_AWReady,
+	
+	//Write Data Channel (W)
+	input wire [31:0]  m0_WData,
+	input wire [3:0]   m0_WStrb,
+	input wire 			 m0_WValid,
+	output wire 		 m0_WReady,
+	
+	//Write Response (B)
+	output wire [1:0]  m0_BResp,
+	output wire 		 m0_BValid,
+	input wire 			 m0_BReady,
+	
+	//Read Address Channel (AR)
+	input wire [31:0]  m0_ARAddr,
+	input wire 			 m0_ARValid,
+	output wire 		 m0_ARReady,
+	
+	//Read Data Channel (R)
+	output wire [31:0] m0_RData,
+	output wire [1:0]  m0_RResp,
+	output wire 		 m0_RValid,
+	input wire 			 m0_RReady,
+	 
+);
